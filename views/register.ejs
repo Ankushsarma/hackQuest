@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #0A0A23;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .register-container {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #1E90FF;
+            border-radius: 10px;
+            background-color: #1C1C2F;
+            box-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+            text-align: center;
+        }
+        .register-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #1E90FF;
+            border-radius: 5px;
+            background-color: #0A0A23;
+            color: white;
+        }
+        .register-container button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1E90FF;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .register-container button:hover {
+            background-color: #00BFFF;
+        }
+        .register-container a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .register-container a:hover {
+            color: #00BFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <h2>Register</h2>
+        <form action="/register" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">REGISTER</button>
+        </form>
+        <p>Already have an account? <a href="/">Login</a></p>
+    </div>
+</body>
+</html>

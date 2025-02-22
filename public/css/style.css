@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+.mystyle{
+    display: none;
+    font-size: 0;
+}
+
+.main_container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 2, 2);
+}
+
+button {
+    margin: 15px;
+}
